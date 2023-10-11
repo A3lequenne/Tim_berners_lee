@@ -8,6 +8,8 @@ body {
   padding: 20px 0;
   margin: 0;
   color: white;
+  position: fixed;
+  width: 100%;
 }
 
 .nav_list {
@@ -26,6 +28,10 @@ body {
 
 .nav_list a {
   text-decoration: none;
+}
+
+.begin_nav a {
+  padding-right: 8px;
 }
 
 .end_nav {
@@ -52,14 +58,20 @@ body {
   display: none;
 }
 
-#nav_brows, #nav_search {
+.link_hidden {
   text-decoration: none;
   color: white;
 }
 
+.under_navbar {
+  color: #d5d5d5;
+  padding-top: 80px;
+  padding-left: 50px;
+}
+
 @media (min-width: 768px) {
-  .navbar {
-    
+  .nav_list {
+    justify-content: flex-start;
   }
 
   .hidden_big {
@@ -72,10 +84,17 @@ body {
 
   .begin_nav {
     order: 1;
+    padding-left: 30px;
   }
 
+  .begin_nav a { 
+    padding-right: 8px;
+  }
+  
   .end_nav {
     order: 2;
+    margin-left: auto;
+    padding-right: 30px;
   }
 
   .nav_hidden {
