@@ -253,6 +253,12 @@ body {
   color: #13599d;
 }
 
+#credited {
+  color: #13599d;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
 @media (min-width: 768px) {
   #nav_list {
     justify-content: flex-start;
