@@ -10,6 +10,7 @@ In this project we have to replicate a webpage precisely. The web page is about 
 HTML5 and CSS3 (no frameworks :sadge:)
 
 ## Possible Improvements
+- Im not quite sure about my usage of the semantics tags yet (cant find real good alternative for span sometimes)
 - The "second navbar" doenst move yet
 - Desktop version not finished yet
 - The icons are only icons (No hamburger menu)
