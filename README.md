@@ -15,3 +15,4 @@ HTML5 and CSS3 (no frameworks :sadge:)
 - Desktop version not finished yet
 - The icons are only icons (No hamburger menu)
 - Font size is implemented badly (but it works well so not a priority to change the code only for the sake of it)
+- I just realized (October 12th 1.40PM) that the big blue buttons are not buttons/links. I'll change it tomorrow if we get more time.
