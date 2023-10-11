@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #061d2e;
+  padding: 20px 0;
+  margin: 0;
+  color: white;
+}
+
+.nav_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-left: 10px;
+}
+
+.nav_list {
+  margin: 0 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list a {
+  text-decoration: none;
+}
+
+.end_nav {
+  padding-right: 0px;
+}
+
+.subscribe_button {
+  border: black solid 2px;
+  background-color: #973100;
+  padding: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#logo_britannica {
+  width: 140px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav_hidden {
+  display: none;
+}
+
+#nav_brows, #nav_search {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    
+  }
+
+  .hidden_big {
+    display: none;
+  }
+
+  .center_nav {
+    order: 0;
+  }
+
+  .begin_nav {
+    order: 1;
+  }
+
+  .end_nav {
+    order: 2;
+  }
+
+  .nav_hidden {
+    display: contents;
+  }
+}
