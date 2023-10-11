@@ -1,9 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+  line-height: 1.1;
+  font-size: 20px;
 }
 
-.navbar {
+#navbar {
   background-color: #061d2e;
   padding: 20px 0;
   margin: 0;
@@ -12,33 +14,33 @@ body {
   width: 100%;
 }
 
-.nav_list {
+#navbar svg {
+  fill: #ffffff;
+}
+
+#nav_list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   padding-left: 10px;
-}
-
-.nav_list {
   margin: 0 5px;
-  display: flex;
   justify-content: space-between;
 }
 
-.nav_list a {
+#nav_list a {
   text-decoration: none;
 }
 
-.begin_nav a {
+#begin_nav a {
   padding-right: 8px;
 }
 
-.end_nav {
+#end_nav {
   padding-right: 0px;
 }
 
-.subscribe_button {
+#subscribe_button {
   border: black solid 2px;
   background-color: #973100;
   padding: 5px;
@@ -54,7 +56,7 @@ body {
   margin: 0 auto;
 }
 
-.nav_hidden {
+.hidden_class {
   display: none;
 }
 
@@ -63,14 +65,196 @@ body {
   color: white;
 }
 
-.under_navbar {
-  color: #d5d5d5;
+#under_navbar {
+  color: #666666;
   padding-top: 80px;
-  padding-left: 50px;
+}
+
+#under_navbar svg {
+  fill: #1a1a1a;
+}
+
+#first_block {
+  margin: 0px 30px;
+}
+
+.sandt {
+  border-radius: 12px;
+  font-weight: bold;
+  border: #fed7aa solid;
+  background-color: #fed7aa;
+  padding: 2px;
+}
+
+#TBL {
+  font-size: 2.125rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#title {
+  margin-top: -58px;
+}
+
+#british_scientist {
+  font-size: 1.325rem;
+  font-weight: 500;  
+}
+
+#actions_title {
+  color: #13599d;
+  border: solid #dddddd 1px;
+  font-size: 1.325rem;
+  padding: 8px;
+  border-radius: 12px;
+  position: absolute;
+  right: 0;
+  margin-right: 30px;
+  font-weight: 600;
+}
+
+#actions_title svg {
+  fill: #13599d;
+  width: .75rem;
+}
+
+.gray_text {
+  color: #666666;
+}
+
+#info_under_title {
+  padding-top: 8px
+}
+
+.link_under_title {
+  color: #13599d;
+  text-decoration-style: dotted;
+  text-decoration-thickness: 1px;
+}
+
+.blue_link {
+  color:#13599d;
+  text-decoration: none;
+}
+
+.big_blue_text {
+  color:#13599d;
+  padding-top: 25px;
+  font-size: 1.625rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+#table_of_contents_2 {
+  border: solid #dddddd 1px;
+  padding: 10px 94px 10px 80px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.big_blue_text svg {
+  fill: #13599d;
+}
+
+#listen_article {
+  padding: 40px 0px 0px 80px;
+  font-size: 1.525rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+}
+
+#second_part_listen {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  padding: 2.25px 10px;
+}
+
+#listen_article svg {
+  fill: #3c4043;
+}
+
+#sound_wave svg{
+  fill: #666666;
+}
+
+#bio_TBL {
+  margin: 40px 30px 30px 30px;
+  border: #dddddd solid 1px;
+}
+
+#picture_TBL {
+  margin: 30px;
+  border: #dddddd solid 1px;
+  border-radius: 15px;
+}
+
+#picture_TBL img {
+  width: 100%;
+}
+
+#capt_picture {
+  font-size: 1.5rem;
+  padding: 0px 0px 15px 20px;
+}
+
+#see_all_media {
+  margin-top: -32px;
+  padding-bottom: 24px;
+}
+
+#infos_TBL {
+  margin: 0px 30px;
+  padding: 25px 0px 20px 0px;
+  font-size: 1.5rem;
+  border-top: #dddddd solid 1px;
+  border-bottom: #dddddd solid 1px;
+  line-height: 1.8;
+}
+
+#related_content {
+  padding: 25px 30px;
+}
+
+#see_all_related_content {
+  border: #dddddd solid 1px;
+  padding: 10px 0px;
+  border-radius: 15px;
+}
+
+#sandt_bio {
+  margin-left: 8px;
+}
+
+#secondary_navbar {
+  padding:0 30px 25px 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.325rem;
+  border-bottom: #dddddd solid 1px;
+}
+
+#toc_navbar_2 {
+  padding-top: 0;
+  font-size: 1.325rem;
+}
+
+#text_about_TBL {
+  margin: -1px 1px, 0, 1px;
+  padding: 25px 30px;
+  border: #dddddd solid 1px;
+  font-size: 1.5rem;
+  line-height: 1.3;
+}
+
+.blue_link_text {
+  color: #13599d;
 }
 
 @media (min-width: 768px) {
-  .nav_list {
+  #nav_list {
     justify-content: flex-start;
   }
 
@@ -78,26 +262,30 @@ body {
     display: none;
   }
 
-  .center_nav {
+  #center_nav {
     order: 0;
   }
 
-  .begin_nav {
+  #begin_nav {
     order: 1;
     padding-left: 30px;
   }
 
-  .begin_nav a { 
+  #begin_nav a { 
     padding-right: 8px;
   }
   
-  .end_nav {
+  #end_nav {
     order: 2;
     margin-left: auto;
     padding-right: 30px;
   }
 
-  .nav_hidden {
+  .hidden_class {
     display: contents;
+  }
+
+  .sandt {
+    display: none;
   }
 }
