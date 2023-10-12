@@ -16,5 +16,5 @@ In this project we have to replicate a webpage precisely. The web page is about 
 - The icons are only icons (No hamburger menu)
 - Font size is implemented badly (but it works well so not a priority to change the code only for the sake of it)
 - No border around the big block of elements in the Desktop view (I didnt think about it until now 12th of October 3.42AM and its too late to change everything)
-## What i'm really bad at yet
+## What i realized during this exercice
 - I dont use enough relative values for responsive positioning. I'll work on that.
