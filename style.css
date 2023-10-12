@@ -47,6 +47,8 @@ body {
   margin-right: 3px;
   border-radius: 10px;
   font-weight: bold;
+  color: white;
+  text-decoration: none;
 }
 
 #logo_britannica {
@@ -83,6 +85,17 @@ body {
   border: #fed7aa solid;
   background-color: #fed7aa;
   padding: 2px;
+  text-decoration: none;
+  color: black;
+}
+
+.sandt:hover {
+  cursor: pointer;
+}
+
+.under_nav {
+  text-decoration: none;
+  color: #666666;
 }
 
 #TBL {
@@ -108,6 +121,10 @@ body {
   border-radius: 12px;
   margin-right: 0px;
   font-weight: 600;
+  position: absolute;
+  right: 0;
+  margin-right:30px;
+  text-decoration: none;
 }
 
 #actions_title svg {
@@ -147,6 +164,10 @@ body {
   padding: 10px 38px 10px 80px;
   width: 70%;
   border-radius: 5px;
+}
+
+#table_of_contents_2:hover {
+  background-color: lightblue;
 }
 
 .big_blue_text svg {
@@ -192,6 +213,19 @@ body {
   width: 100%;
 }
 
+#main_block {
+  margin-left:5px;
+}
+
+#play_button:hover {
+  cursor: pointer;
+}
+
+#link_toc, #see_all_c, #see_all_m {
+  text-decoration: none;
+  color:#13599d;
+}
+
 #capt_picture {
   font-size: 1.5rem;
   padding: 0px 0px 15px 20px;
@@ -200,6 +234,10 @@ body {
 #see_all_media {
   margin-top: -32px;
   padding-bottom: 24px;
+}
+
+ins {
+  text-decoration: none;
 }
 
 #infos_TBL {
@@ -298,6 +336,10 @@ body {
 
   #first_block {
     margin-left: 30px;
+  }
+
+  .under_nav {
+    color:#13599d;
   }
 
   #buttons_big {
