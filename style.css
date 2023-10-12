@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.1;
-  font-size: 20px;
 }
 
 #navbar {
@@ -75,7 +74,7 @@ body {
 }
 
 #first_block {
-  margin: 0px 30px;
+  margin: 0px 15px;
 }
 
 .sandt {
@@ -107,9 +106,7 @@ body {
   font-size: 1.325rem;
   padding: 8px;
   border-radius: 12px;
-  position: absolute;
-  right: 0;
-  margin-right: 30px;
+  margin-right: 0px;
   font-weight: 600;
 }
 
@@ -147,7 +144,7 @@ body {
 
 #table_of_contents_2 {
   border: solid #dddddd 1px;
-  padding: 10px 94px 10px 80px;
+  padding: 10px 38px 10px 80px;
   width: 70%;
   border-radius: 5px;
 }
@@ -157,8 +154,8 @@ body {
 }
 
 #listen_article {
-  padding: 40px 0px 0px 80px;
-  font-size: 1.525rem;
+  padding: 40px 0px 0px 0px;
+  font-size: 1.25rem;
   font-weight: 500;
   display: flex;
   justify-content: space-around;
@@ -168,7 +165,7 @@ body {
   width: 50%;
   display: flex;
   justify-content: space-between;
-  margin-left: 40px;
+  margin-left: 20px;
   padding: 2.25px 10px;
 }
 
@@ -232,13 +229,13 @@ body {
   padding:0 30px 25px 30px;
   display: flex;
   justify-content: space-between;
-  font-size: 1.325rem;
+  font-size: 1.25rem;
   border-bottom: #dddddd solid 1px;
 }
 
 #toc_navbar_2 {
   padding-top: 0;
-  font-size: 1.325rem;
+  font-size: 1.25rem;
 }
 
 #text_about_TBL {
@@ -257,6 +254,10 @@ body {
   color: #13599d;
   text-decoration: underline;
   text-decoration-style: dotted;
+}
+
+#in_full {
+  margin: -40px 0px;
 }
 
 @media (min-width: 768px) {
@@ -287,11 +288,88 @@ body {
     padding-right: 30px;
   }
 
+  #big_border {
+    border: #dddddd 1px solid;
+  }
+
+  #under_navbar {
+    color: #13599d;
+  }
+
+  #first_block {
+    margin-left: 30px;
+  }
+
+  #buttons_big {
+    display: flex;
+  }
+
+  .but_big {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border: #dddddd 1px solid;
+    border-radius: 10px;
+    fill: #13599d;
+    text-decoration: none;
+    color: #13599d;
+    font-size: 1.5rem;
+  }
+
+  #listen_article {
+    display: none;
+  }
+
+  #main_block {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+  }
+
+  #bio_TBL {
+    width: 35%;
+  }
+
+  #picture_TBL {
+    border:hidden;
+  }
+
+  #capt_picture {
+    font-size: 1rem;
+  }
+
+  #see_all_media {
+    font-size: 1.25rem;
+    margin-top: -56px;
+    padding-bottom: 15px;
+    border-bottom: solid 1px #dddddd;
+  }
+
+  #see_all_related_content {
+    font-size: 1.25rem;
+  }
+
+  #infos_TBL {
+    line-height: 1.5;
+    margin-top: -70px;
+    font-size: 1.25rem;
+    border: hidden;
+  }
+
+  #text_about_TBL {
+    width: 65%;
+    border: hidden;
+  }
+
+  #secondary_navbar {
+    display: none;
+  }
+
   .hidden_class {
     display: contents;
   }
 
-  .sandt {
+  #first_block .sandt {
     display: none;
   }
 }
